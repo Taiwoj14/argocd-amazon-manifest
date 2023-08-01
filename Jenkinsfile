@@ -12,7 +12,7 @@ node {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     withCredentials([usernamePassword(credentialsId: 'taiwo-github', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
                         //script {def encodedPassword = URLEncoder.encode("$GIT_PASSWORD",'UTF-8')}
-                        //script  {def IMAGE='ooghenekaro/amazon'}
+                        //script  {def IMAGE='josepht05/amazon-taiwo'}
                         sh "git config user.email .twin1405j@gmailcom"
                         sh "git config user.name Taiwoj14"
                         //sh "git switch master"

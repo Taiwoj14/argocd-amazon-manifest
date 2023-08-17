@@ -23,7 +23,7 @@ spec:
     spec: # Pod spec
       containers:
       - name: amazon-container
-        image: josepht05/amazon-taiwo:12
+        image: josepht05/amazon-taiwo:13
         ports:
         - containerPort: 3000
         

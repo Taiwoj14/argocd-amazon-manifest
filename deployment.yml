@@ -12,14 +12,14 @@ spec:
     matchLabels:
       app: amazon-app
       tier: frontend
-      version: 1.0.0
+      version: 1.0.1
 #pod tempalte
   template:
     metadata:
       labels:
         app: amazon-app
         tier: frontend
-        version: 1.0.0
+        version: 1.0.1
     spec: # Pod spec
       containers:
       - name: amazon-container
